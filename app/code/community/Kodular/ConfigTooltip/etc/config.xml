@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<global>
+		<models>
+			<kodular_configtooltip>
+				<class>Kodular_ConfigTooltip_Model</class>
+			</kodular_configtooltip>
+		</models>
+	</global>
+	<adminhtml>
+		<events>
+			<adminhtml_init_system_config>
+				<observers>
+					<kodular_configtooltip>
+						<class>kodular_configtooltip/observer</class>
+						<method>adminHtmlInitSystemConfig</method>
+					</kodular_configtooltip>
+				</observers>
+			</adminhtml_init_system_config>
+		</events>
+	</adminhtml>
+</config>

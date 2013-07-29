@@ -1,0 +1,21 @@
+{
+    "name":"Kodular/ConfigTooltip",
+    "license":"OSL-3.0",
+    "type":"magento-module",
+    "description":"Enables a tooltip with full path of config field in admin panel",
+    "require":{
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Steve Desmet",
+            "email":"steve.desmet@gmail.com"
+        }
+    ],
+    "extra":{
+        "map":[
+            ["app/code/community/Kodular/ConfigTooltip","app/code/community/Kodular/ConfigTooltip"],
+            ["app/etc/modules/Kodular_ConfigTooltip.xml","app/etc/modules/Kodular_ConfigTooltip.xml"]
+        ]
+    }
+}
